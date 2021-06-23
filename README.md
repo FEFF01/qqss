@@ -1,11 +1,10 @@
 # qqss
- Fast and safe CSS selector API engine
 
 > 可用用于 VDOM 中提供完整的 querySelector 支持
 
 > 可用于 VCSSOM 中提供完整的 CSSRule 匹配
 
-> 不依赖 `new Function` 适用性更广效率更高，当前效率大概是 jsdoc -> nwsapi 的两倍
+> 不依赖 `new Function` 适用性更广效率更高，当前效率大概是 jsdom -> [nwsapi](https://github.com/dperini/nwsapi) 的两倍
 
 > 当前支持如下选择器 :
 > * tagName . # * 
